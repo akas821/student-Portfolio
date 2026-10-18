@@ -3,143 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Student projects and interactive 3D model viewer">
+  <meta name="description" content="3D modeling projects and interactive 3D model viewer">
   <title>Student Portfolio | Projects</title>
   <link rel="stylesheet" href="css/style.css">
-  <!-- Resolve bare "three" imports used internally by Three.js example loaders. -->
-  <script type="importmap">
-{
-  "imports": {
-    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
-    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
-  }
-}
-</script>
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="index.html"><span class="brand-mark">SP</span><span id="brandName">Student Portfolio</span></a>
-    <nav aria-label="Main navigation">
-      <a href="index.html">Profile</a>
-      <a class="active" href="projects.html">Projects & 3D Viewer</a>
-      <a href="contact.html">Skills & Contact</a>
-    </nav>
+    <nav aria-label="Main navigation"><a href="index.html">Profile</a><a class="active" href="projects.html">Projects & 3D Viewer</a><a href="contact.html">Skills & Contact</a></nav>
   </header>
-
   <main class="page-shell">
-    <section class="page-heading">
-      <p class="eyebrow">MY WORKS</p>
-      <h1>Projects & <span class="accent-text">3D assets</span></h1>
-      <p class="lead">A place to showcase my Blender models, animations.</p>
+    <section class="page-heading"><p class="eyebrow">MY WORKS</p><h1>Projects & <span class="accent-text">3D assets</span></h1><p class="lead">Browse my 3D projects and select any model to inspect it in the viewer below.</p></section>
+    <section class="panel unified-showcase">
+      <div class="showcase-heading"><p class="eyebrow">PROJECT GALLERY</p><h2>My 3D Modeling Projects</h2><p class="muted">All projects are shown together. Select <strong>View in 3D</strong> to load a model in the viewer below.</p></div>
+      <div id="hostedModelGallery" class="hosted-model-gallery" aria-live="polite"><p class="small-note">Loading projects…</p></div>
+      <p class="small-note gallery-footnote">The models must exist in <code>assets/models/</code> at the paths configured in <code>js/hosted-models.js</code>.</p>
     </section>
-
-    <section class="project-grid" id="projectGrid">
-      <article class="project-card">
-        <div class="project-number">01 / HARD SURFACE MODELLING</div><h2>Mini Robot Model</h2>
-        <p>A Mini Robo Drone model made in Maya3D.</p>
-        <div class="tag-list"><span>Maya3D</span><span>Hard Surface</span></div>
-      </article>
-      <article class="project-card">
-        <div class="project-number">02 / HARD SURFACE MODELLING</div><h2>AeroPlane Model</h2>
-        <p>A simple Low-Poly AeroPlane model made With Maya3D.</p>
-        <div class="tag-list"><span>Maya3D</span><span>Materials</span><span>Lighting</span></div>
-      </article>
-      <article class="project-card">
-        <div class="project-number">02 / HARD SURFACE MODELLING</div><h2>Flight Model</h2>
-        <p>A simple Low-Poly Flight model made With Maya3D.</p>
-        <div class="tag-list"><span>Maya3D</span></div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-number">03 / CHARACTER</div><h2>LEGO MODEL</h2>
-        <p>A Lego Character model made with Maya3D</p>
-        <div class="tag-list"><span>Maya3D</span><span>Materials</span></div>
-      </article>
-      <article class="project-card">
-        <div class="project-number">04 / CHARACTER</div><h2>Minions Model</h2>
-        <p>A Low Poly Minion Model made with Maya 3D.</p>
-        <div class="tag-list"><span>Maya3D</span><span>Materials</span></div>
-      </article>
-      <article class="project-card">
-        <div class="project-number">04 / 3D ENVIRONMENT</div><h2>Trampolin</h2>
-        <p>A Low Poly Trampolin model made with Maya 3D.</p>
-        <div class="tag-list"><span>Maya3D</span><span>Materials</span></div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-number">05 / HARD SURFACE MODELLING</div><h2>Low Poly Bike</h2>
-        <p>A simple Low-Poly Bike model made with Maya 3D.</p>
-        <div class="tag-list"><span>Maya3D</span></div>
-      </article>
-      <article class="project-card">
-        <div class="project-number">06 / HARD SURFACE MODELLING</div><h2>Truck Model</h2>
-        <p>A Truck Made in the Maya3D.</p>
-        <div class="tag-list"><span>Maya3D</span><span>Materials</span></div>
-      </article>
-      <article class="project-card">
-        <div class="project-number">07 / CHARACTER</div><h2>Pokemon Model</h2>
-        <p>A Low-Poly model of Charmander from Pokemon.</p>
-        <div class="tag-list"><span>Maya3D</span><span>Materials</span></div>
-      </article>
-      <article class="project-card">
-        <div class="project-number">08 / HARD SURFACE MODELLING</div><h2>CCTV Camera Model</h2>
-        <p>A simple Low-Poly model of  CCTV.</p>
-        <div class="tag-list"><span>Maya3D</span><span>Hard Surface</span></div>
-      </article>
-      <article class="project-card">
-        <div class="project-number">09 / CHARACTER</div><h2>Angry Bird Model</h2>
-        <p>A Simple Low-Poly Angry Bird model made with Maya 3D.</p>
-        <div class="tag-list"><span>Maya 3D</span><span>Materials</span></div>
-      </article>
-      <article class="project-card">
-        <div class="project-number">10 / ASSET</div><h2>Sword</h2>
-        <p>A Simple Low-Poly Sword model with Maya 3D.</p>
-        <div class="tag-list"><span>Maya 3D</span><span>Materials</span></div>
-      </article>
-
-
-    </section>
-
-    <section class="panel hosted-models-section">
-      <div class="viewer-heading">
-        <div>
-          <p class="eyebrow">BROWSER-READY SHOWCASE</p>
-          <h2>Explore my 3D models</h2>
-          <p class="muted">Select a model to inspect it directly on this website. Visitors do not need to download model files.</p>
-        </div>
-      </div>
-      <div id="hostedModelGallery" class="hosted-model-gallery" aria-live="polite">
-        <p class="small-note">Loading the online model gallery…</p>
-      </div>
-      <p class="small-note">The models must be included in the website's <code>assets/models/</code> folder and published with the site. GLB is recommended because it can include materials and textures.</p>
-    </section>
-
-    <section class="panel viewer-section">
-      <div class="viewer-heading">
-        <div><p class="eyebrow">INTERACTIVE MODEL INSPECTOR</p><h2>3D Model Viewer</h2><p class="muted">Inspect a hosted model, or optionally load a local file for private preview.</p></div>
-        <label class="button primary file-button">Choose 3D file<input id="modelInput" type="file" accept=".fbx,.glb,.gltf,.obj,.stl,.ply" hidden></label>
-      </div>
-      <div id="viewerDropZone" class="viewer-drop-zone">
-        <div id="viewer" class="viewer" aria-label="Interactive 3D model viewer">
-          <div id="viewerEmpty" class="viewer-empty">
-            <div class="wire-cube">◇</div><h3>Drop a 3D model here</h3>
-            <p>FBX · GLB · GLTF · OBJ · STL · PLY</p>
-            <small>Drag to rotate · Scroll to zoom · Right-drag to pan</small>
-          </div>
-        </div>
-      </div>
-      <div class="viewer-controls">
-        <div><strong id="modelStatus">No model loaded</strong><p id="modelHelp" class="small-note">Choose a model file to inspect it. For GLTF files that reference external textures, use a self-contained .glb when possible.</p></div>
-        <div class="button-row compact"><button class="button secondary" id="resetView" type="button">Reset view</button><button class="button secondary" id="clearModel" type="button">Clear model</button></div>
-      </div>
-      <p class="small-note">Model files are processed locally in your browser. Large files may take time. FBX/OBJ texture files are not automatically bundled; GLB is usually the easiest format to share.</p>
+    <section class="panel viewer-section" id="modelViewerPanel" hidden>
+      <div class="viewer-heading"><div><p class="eyebrow">INTERACTIVE MODEL VIEWER</p><h2 id="viewerTitle">3D Model Viewer</h2><p id="modelStatus" class="muted" role="status">Select a model from the gallery.</p></div><button class="button secondary" id="closeViewer" type="button">Close 3D Viewer</button></div>
+      <div id="viewer" class="viewer" aria-label="Interactive 3D model viewer"></div>
+      <p class="small-note">Drag to rotate · Scroll to zoom · Right-drag to pan.</p>
     </section>
   </main>
   <footer class="site-footer"><span id="footerName">Your Name</span><span>Student portfolio · <span id="year"></span></span></footer>
-
-  <!-- Three.js and its loaders are imported as ES modules. Use START_PORTFOLIO.bat locally or publish the site to static hosting. -->
-  <script src="js/hosted-models.js"></script>\n  <script type="module" src="js/model-viewer.js"></script>
-  <script src="js/profile.js"></script>
-  <script src="js/site.js"></script>
+  <script src="js/hosted-models.js"></script><script src="js/profile.js"></script><script src="js/site.js"></script><script type="module" src="js/model-viewer.js"></script>
 </body>
 </html>
