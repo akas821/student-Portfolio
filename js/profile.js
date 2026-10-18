@@ -18,7 +18,7 @@ window.PORTFOLIO_PROFILE = {
   summary: "A motivated student eager to learn, build Personal projects, and improve through practical experience.",
   eagerness: "I enjoy creating simple character models and simple Hard Surface model . I am eager to learn from experienced designers and mentors, strengthen my fundamentals, and contribute to a team while building reliable models and assets.",
   contactMessage: "I welcome internship opportunities, project collaborations, and constructive feedback.",
-  github: "https://github.com/",
+  github: "https://github.com/akas821",
   primarySkills: [
     { name: "Maya / 3D", level: "Intermediate" },
     { name: "Blender / 3D", level: "Intermediate" },
