@@ -1,13 +1,6 @@
-/*
-  EDIT YOUR PERSONAL DETAILS HERE.
-  Replace the example values. Keep quotation marks and commas.
-  This file is shared by all three pages.
-*/
 window.PORTFOLIO_PROFILE = {
   name: "JayaAkash",
-  // Put your photo inside the assets folder and enter its path here.
-  // Example: "assets/jayaakash.jpg"
-  profileImage:"assets/Chormander ref 4.jpg",
+  profileImage:"assets/My Profile.jpeg",
   headline: "Animation student · Aspiring Hard Surface Modeler",
   college: "IIFA Lancester Degree College",
   course: "B.Sc Animation & MultiMedia",
@@ -39,8 +32,7 @@ window.PORTFOLIO_PROFILE = {
     { name: "Drawing", level: "Intermediate" },
     { name: "Swimming", level: "Advanced"}
   ],
-  // Replace these example placeholders with languages you know and your honest proficiency.
-  // Suggested levels: Beginner, Basic, Conversational, Intermediate, Advanced, Fluent, Native.
+  
   languages: [
     { name: "Tamil", level: "Fluent" },
     { name: "Hindi", level: "Basic"},
