@@ -349,3 +349,15 @@ code { color: var(--accent); background: #252b35; padding: 2px 5px; border-radiu
 @media(max-width:950px){.hosted-model-gallery{grid-template-columns:repeat(3,minmax(0,1fr));}}
 @media(max-width:680px){.hosted-model-gallery{grid-template-columns:repeat(2,minmax(0,1fr));}}
 @media(max-width:440px){.hosted-model-gallery{grid-template-columns:1fr;}}
+
+
+/* Google Drive links displayed beneath the shared 3D viewer. */
+.drive-model-links { margin-top: 24px; }
+.drive-model-links .showcase-heading { margin-bottom: 18px; }
+.drive-model-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.drive-model-card { min-width: 0; display: flex; flex-direction: column; gap: 14px; padding: 16px; border: 1px solid var(--line); border-radius: 13px; background: linear-gradient(150deg, #171d27, #11151d); }
+.drive-model-card h3 { margin: 0; font-size: .98rem; overflow-wrap: anywhere; flex: 1 0 auto; }
+.drive-model-card .button { width: 100%; min-height: 42px; text-align: center; }
+@media (max-width: 950px) { .drive-model-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 680px) { .drive-model-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 440px) { .drive-model-grid { grid-template-columns: 1fr; } }
