@@ -8,11 +8,6 @@ Built with HTML, CSS, JavaScript, and Three.js, this portfolio presents
 my creative work, technical skills, education, and ongoing projects.
 
 ---
-# JayaAkash | 3D Modeling & Animation Portfolio
-
-Explore my 3D modeling projects, hard-surface assets, character art,
-animation work, and interactive 3D experiences.
-
 ### 🌐 View My Live Portfolio
 
 **[Open My Portfolio Website](https://akas821.github.io/student-Portfolio/index.html)**
