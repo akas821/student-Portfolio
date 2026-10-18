@@ -2,7 +2,7 @@ window.PORTFOLIO_MODELS = [
  
    { title: "Mini Robot Model", description: "Low-poly hard-surface model.", file: "assets/models/Robot.fbx" },
    { title: "AeroPlane", description: "Hard-surface AeroPlane model.", file: "assets/models/PLANE.fbx" },
-   { title: "Flight", description: "Hard-surface Flight model.", file: "assets/models/AIRCRAFT.fbx" },
+   { title: "Flight", description: "Hard-surface Flight model.", file: "assets/models/Flight.glb" },
    { title: "Lego", description: "Low-Poly Lego model.", file: "assets/models/LEGO.fbx" },
    { title: "Minions", description: "Low-Poly Minion model.", file: "assets/models/MINION.fbx" },
    { title: "Trampolin", description: "Hard-surface Trampolin model.", file: "assets/models/TRAMPOLIN.fbx" },
