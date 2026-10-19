@@ -5,7 +5,7 @@ window.PORTFOLIO_PROFILE = {
   college: "IIFA Lancaster Degree College",
   course: "B.Sc Animation & MultiMedia",
   education: [
-    { level: "College", institution: "IIFA Lancester Degree College,Karnataka", qualification: "B.Sc Animation & MultiMedia", startYear: "2024", endYear: "2027" },
+    { level: "College", institution: "IIFA Lancaster Degree College,Karnataka", qualification: "B.Sc Animation & MultiMedia", startYear: "2024", endYear: "2027" },
     { level: "School", institution: "Blessings School,ChengalPattu", qualification: "Higher Secondary",startYear: "2021", endYear: "2024" },
     { level: "School", institution: "Kendriya Vidhyalaya N0.1,Kalpakkam", qualification: "Primary & Secondary",startYear: "2012", endYear: "2021" }
 
