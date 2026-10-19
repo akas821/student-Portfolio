@@ -2,7 +2,7 @@ window.PORTFOLIO_PROFILE = {
   name: "JayaAkash",
   profileImage:"assets/My Profile.jpeg",
   headline: "Animation student · Aspiring Hard Surface Modeler",
-  college: "IIFA Lancester Degree College",
+  college: "IIFA Lancaster Degree College",
   course: "B.Sc Animation & MultiMedia",
   education: [
     { level: "College", institution: "IIFA Lancester Degree College,Karnataka", qualification: "B.Sc Animation & MultiMedia", startYear: "2024", endYear: "2027" },
