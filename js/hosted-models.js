@@ -7,9 +7,9 @@ window.PORTFOLIO_MODELS = [
    { title: "Minions", description: "Low-Poly Minion model.", file: "assets/models/MINION.fbx" },
    { title: "Trampolin", description: "Hard-surface Trampolin model.", file: "assets/models/Trampolin.glb" },
    { title: "Bike", description: "Hard-surface Bike model.", file: "assets/models/Bike.glb" },
+   { title: "Sword", description: "Low-Poly Sword model created in Maya.", file: "assets/models/SWORD.fbx" },
    { title: "Truck", description: "Hard-surface Truck model.", file: "assets/models/TRUCK.fbx" },
-   { title: "pokemon", description: "Low-Poly pokemon model.", file: "assets/models/CHORIZORD.fbx" },
    { title: "CCTV Camera", description: "Hard-surface CCTV Camera model.", file: "assets/models/CCTV.fbx" },
    { title: "Angry Bird", description: "Low-Poly Angry Bird model created in Maya.", file: "assets/models/ANGRY BIRD.fbx" },
-   { title: "Sword", description: "Low-Poly Sword model created in Maya.", file: "assets/models/SWORD.fbx" }
+   { title: "pokemon", description: "Low-Poly pokemon model.", file: "assets/models/CHORIZORD.fbx" }
 ];
